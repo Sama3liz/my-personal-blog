@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name='title' content='Blog personal'>
-  <meta name="description" content="Menu del sitio">
-  <title>Inicio</title>
-</head>
-<body>
-  <header>
-    <h1> <center>Blog de Edison Alexander Ñacato</center></h1>
-  </header>
-  <nav>
-    <center>
-      <a href="index.html">Inicio</a>
-      <a href="vistas/modulos/estudios.html">Estudios</a>
-      <a href="vistas/modulos/contacto.html">Contacto</a>
-      <a href="vistas/modulos/pasatiempos.html">Pasatiempos</a>
-      <a href="vistas/modulos/portafolio.html">Portafolio</a>
-      <a href="#"></a>
-    </center>
-  </nav>
-  <div align='center' style="border: 1px solid black">
-    <h1><strong> Sobre mí </strong></h1>
-    <img src='assets/img/1634924098742.jpeg' width='200' height="200"></img>
-    <p>
-      Responsable, proactivo. Facilidad para realizar trabajos en equipo. Colaborador y participativo para poder culminar los proyectos. Siempre dispuesto a aprender nuevas cosas y ponerlas en práctica para crecer profesionalmente y desenvolver de una mejor manera las tareas asignadas. Afición por la tecnología y literatura. Experiencia laboral polifuncional.
-    </p>
-  </div>
-  <footer position='absolute' bottom='0'>
-    <strong>Desarrollado por Edison Alexander Nacato &copy; 2021</strong>
-  </footer>
-    
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name='title' content='Blog personal'>
+    <meta name="description" content="Menu del sitio">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <title>Inicio</title>
+  </head>
+  <body>
 
+
+    <nav py-2 bg-light border-bottom>
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vistas/modulos/estudios.html">Estudios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vistas/modulos/contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vistas/modulos/pasatiempos.html">Pasatiempos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="vistas/modulos/portafolio.html">Portafolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <h1 class="text-black display-4 fw-bold"></h1>
+      </div>
+    </header>
+    
+
+    <div class="bg-primary">
+      <div class="container">
+        <div class="row align-items-center g-0">
+          <div class="col-xl-5 col-lg-6 col-md-12">
+            <div class="py-5 py-lg-0">
+              <h1 class="text-white display-4 fw-bold">Sobre mí </h1>
+              <p class="text-white-50 mb-4 lead">
+                Responsable, proactivo. Facilidad para realizar trabajos en equipo. Colaborador y participativo para poder culminar los proyectos. Siempre dispuesto a aprender nuevas cosas y ponerlas en práctica para crecer profesionalmente y desenvolver de una mejor manera las tareas asignadas. Afición por la tecnología y literatura. Experiencia laboral polifuncional.
+              </p>
+            </div>
+          </div>
+          <div class=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center">
+            <img class="img-fluid" src='assets/img/1634924098742.jpeg' width="400" height="400"></img>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer">
+      <div class="container">
+        <div class="row align-items-center g-0 border-top py-2">
+          <div class="col-md-6 col-12 text-center text-md-start">
+            <span>&copy; 2021. Edison Alexander Nacato.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
 </html>
