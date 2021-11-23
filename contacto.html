@@ -5,7 +5,7 @@
     <meta name='title' content='Blog personal'>
     <meta name="description" content="Menu del sitio">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <title>Inicio</title>
+    <title>Contacto</title>
   </head>
   <body>
 
@@ -39,10 +39,36 @@
       </div>
     </header>
     
+    <div class="modal modal-signin position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSignin">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-5 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <!-- <h5 class="modal-title">Modal title</h5> -->
+              <h2 class="fw-bold mb-0">Registro de Contacto</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+      
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control rounded-4" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-4" id="floatingPassword" placeholder="Name">
+                  <label for="floatingPassword">Nombre</label>
+                </div>
+                <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Enviar</button>
+                <small class="text-muted">Te contactare lo mas pronto!</small>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="container px-4 py-5" id="featured-3">
         <h2 class="pb-2 border-bottom">Contactos</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
             <div class="feature col">
                 <div class="feature-icon bg-gradient">
                     <a href="https://www.linkedin.com/in/edison-alexander-nacato" target="_blank">
@@ -50,8 +76,6 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
                 <div class="feature-icon bg-gradient">
                     <a href="https://wa.me/593999708936" target="_blank">
